@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.matecode:Snacky:1.0.3@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700b216505c8e3a5e6623f1e69e3d45e/jetified-Snacky-1.0.3/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/515b831877be56c5073e6e02d9919d13/jetified-Snacky-1.0.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700b216505c8e3a5e6623f1e69e3d45e/jetified-Snacky-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700b216505c8e3a5e6623f1e69e3d45e/jetified-Snacky-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/700b216505c8e3a5e6623f1e69e3d45e/jetified-Snacky-1.0.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/515b831877be56c5073e6e02d9919d13/jetified-Snacky-1.0.3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/515b831877be56c5073e6e02d9919d13/jetified-Snacky-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/515b831877be56c5073e6e02d9919d13/jetified-Snacky-1.0.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

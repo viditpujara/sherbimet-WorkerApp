@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">Sherbimet Worker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Dashboard</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <!-- splash text -->
+    <string name="no_internet_connection_splash">No Internet Connection!</string>
+    <string name="retry_button_splash">Retry</string>
+    <string name="worker_text">Worker</string>
+
+    <!-- login text -->
+    <string name="login_title">Login</string>
+    <string name="login_hello">Hello,</string>
+    <string name="login_description">Please enter your mobile number below on which you will receive otp.</string>
+    <string name="login_country_code_hint">+91</string>
+    <string name="login_mobile_number_hint">Mobile Number</string>
+    <string name="login_button_text">Request Otp</string>
+    <string name="login_mobile_empty_validation_error">Please provide a mobile number</string>
+    <string name="login_mobile_invalid_validation_error">Your mobile number must be at 10 digits long</string>
+    <string name="login_something_went_wrong_toast">Something Went Wrong Please Try Again Later!</string>
+
+    <!-- login otp verification text -->
+    <string name="login_otp_verification_title">Otp Verification</string>
+    <string name="login_otp_verification_description">Please enter 6 digit code that we have sent on following mobile number via sms to continue.</string>
+    <string name="login_otp_verification_all_fields_required">All fields of otp are required to verify. Please enter all fields and try again!</string>
+    <string name="login_otp_verification_no_intnernet_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="login_otp_verification_resend_otp_in">Resend OTP SMS in</string>
+    <string name="login_otp_verification_did_not_received_otp">Did\'nt Received OTP? </string>
+    <string name="login_otp_verification_resend_otp">Resend OTP</string>
+    <string name="login_otp_verification_button">Verify OTP &amp; Login</string>
+
+
+    <!-- success message text -->
+    <string name="success_title">Success !</string>
+
+
+    <!-- no internet text -->
+    <string name="no_internet_title">Oh...!!</string>
+    <string name="no_internet_message">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="no_internet_retry_button">Retry</string>
+
+    <!-- error text -->
+    <string name="error_title">Oh...!!</string>
+
+
+    <!-- no search result text -->
+    <string name="no_search_result_title">Oops</string>
+
+
+    <!-- home text -->
+    <string name="home_service_bookings_text">Service Bookings</string>
+    <string name="home_service_requests_text">Service Requests</string>
+    <string name="home_my_profile_text">My Profile</string>
+    <string name="home_no_internet_connection_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="home_logout_title">Please Confirm</string>
+    <string name="home_logout_description">Are you sure want to logout from Sherbimet?</string>
+    <string name="home_logout_yes_button">Yes</string>
+    <string name="home_logout_no_button">No</string>
+    <string name="home_something_went_wrong_toast">Something Went Wrong!</string>
+
+
+    <!-- navigation text -->
+    <string name="nav_service_bookings">Service Bookings</string>
+    <string name="nav_service_requests">Service Requests</string>
+    <string name="nav_chat">Chat with us</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_about">About Sherbimet Worker</string>
+    <string name="nav_logout">Logout</string>
+
+
+    <!-- worker booking status text -->
+    <string name="worker_booking_status_toolbar_title_text">Booking Status</string>
+    <string name="worker_booking_status_description_text">Please Select At Least One Option to View Bookings History.</string>
+    <string name="worker_booking_status_pending_booking_text">Pending Bookings</string>
+    <string name="worker_booking_status_ongoing_booking_text">Ongoing Bookings</string>
+    <string name="worker_booking_status_completed_booking_text">Completed Bookings</string>
+    <string name="worker_booking_status_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+
+    <!-- worker bookings text -->
+    <string name="worker_booking_pending_toolbar_title_text">Pending Service Bookings</string>
+    <string name="worker_booking_ongoing_toolbar_title_text">OnGoing Service Bookings</string>
+    <string name="worker_booking_completed_toolbar_title_text">My Completed Service Bookings</string>
+    <string name="worker_booking_general_toolbar_title_text">My Service Bookings</string>
+    <string name="worker_booking_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+
+    <!-- worker bookings list row text -->
+    <string name="worker_booking_list_row_service_details_text">Service Details</string>
+    <string name="worker_booking_list_row_service_id_text">Service ID</string>
+    <string name="worker_booking_list_row_service_scheduled_on_text">Service Scheduled On</string>
+    <string name="worker_booking_list_row_service_of_text">Service Of</string>
+    <string name="worker_booking_list_row_service_address">Service Address</string>
+    <string name="worker_booking_list_row_service_message">Service Message</string>
+    <string name="worker_booking_list_row_payable_service_amount">Payable Service Amount</string>
+    <string name="worker_booking_list_row_user_service_details">User Details for Service</string>
+    <string name="worker_booking_list_row_user_name">Name</string>
+    <string name="worker_booking_list_row_user_gender">Gender</string>
+    <string name="worker_booking_list_row_user_mobile">Mobile</string>
+    <string name="worker_booking_list_row_user_email">Email</string>
+    <string name="worker_booking_list_row_review_details">Review Details</string>
+    <string name="worker_booking_list_row_rated">Rated</string>
+    <string name="worker_booking_list_row_review_message">Message</string>
+    <string name="worker_booking_list_row_start_service_booking_button_text">Start Service</string>
+    <string name="worker_booking_list_row_end_service_booking_button_text">End Service</string>
+    <string name="worker_booking_list_row_no_internet_connection_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="start_end_service_network_error_text">Network Error!</string>
+    <string name="start_end_service_no_connection_error_text">No Internet Connection To Server!</string>
+    <string name="start_end_service_server_error_text">Server Error!</string>
+    <string name="start_end_service_connection_timeout_error_text">Connection Timeout Error!</string>
+    <string name="start_end_service_error_text">Error!</string>
+
+    <!-- worker request status text -->
+    <string name="worker_request_status_toolbar_title_text">Request Status</string>
+    <string name="worker_request_status_description_text">Please Select At Least One Option to View Requests History.</string>
+    <string name="worker_request_status_pending_requests_text">Pending Requests</string>
+    <string name="worker_request_status_accepted_requests_text">Accepted Requests</string>
+    <string name="worker_request_status_ongoing_requests_text">Ongoing Requests</string>
+    <string name="worker_request_status_completed_requests_text">Completed Requests</string>
+    <string name="worker_request_status_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+
+    <!-- worker requests text -->
+    <string name="worker_request_pending_toolbar_title_text">Pending Service Requests</string>
+    <string name="worker_request_accepted_toolbar_title_text">Accepted Service Requests</string>
+    <string name="worker_request_ongoing_toolbar_title_text">On Going Service Requests</string>
+    <string name="worker_request_completed_toolbar_title_text">Completed Service Requests</string>
+    <string name="worker_request_general_toolbar_title_text">Service Requests</string>
+    <string name="worker_request_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+
+
+    <!-- worker request list row text -->
+    <string name="worker_request_list_row_service_details_text">Service Details</string>
+    <string name="worker_request_list_row_service_id_text">Service ID</string>
+    <string name="worker_request_list_row_service_scheduled_on_text">Service Scheduled On</string>
+    <string name="worker_request_list_row_service_of_text">Service Of</string>
+    <string name="worker_request_list_row_payment_method">Payment Method</string>
+    <string name="worker_request_list_row_service_address">Service Address</string>
+    <string name="worker_request_list_row_service_message">Service Message</string>
+    <string name="worker_request_list_row_payable_service_amount">Payable Service Amount</string>
+    <string name="worker_request_list_row_user_service_details">User Details for Service</string>
+    <string name="worker_request_list_row_user_name">Name</string>
+    <string name="worker_request_list_row_user_gender">Gender</string>
+    <string name="worker_request_list_row_user_mobile">Mobile</string>
+    <string name="worker_request_list_row_user_email">Email</string>
+    <string name="worker_request_list_row_review_details">Review Details</string>
+    <string name="worker_request_list_row_rated">Rated</string>
+    <string name="worker_request_list_row_review_message">Message</string>
+    <string name="worker_request_list_row_accept_service_booking_button_text">Accept Service</string>
+    <string name="worker_request_list_row_start_service_booking_button_text">Start Service</string>
+    <string name="worker_request_list_row_end_service_booking_button_text">End Service</string>
+    <string name="worker_request_list_row_no_internet_connection_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="accept_start_end_service_network_error_text">Network Error!</string>
+    <string name="accept_start_end_service_no_connection_error_text">No Internet Connection To Server!</string>
+    <string name="accept_start_end_service_server_error_text">Server Error!</string>
+    <string name="accept_start_end_service_connection_timeout_error_text">Connection Timeout Error!</string>
+    <string name="accept_start_end_service_error_text">Error!</string>
+
+
+    <!-- profile text -->
+    <string name="profile_toolbar_title_text">My Profile</string>
+    <string name="profile_first_name_hint">First Name</string>
+    <string name="profile_middle_name_hint">Middle Name</string>
+    <string name="profile_last_name_hint">Last Name</string>
+    <string name="profile_email_hint">Email</string>
+    <string name="profile_country_code_text">+91</string>
+    <string name="profile_mobile_number_hint">Mobile Number</string>
+    <string name="profile_gender_text">Gender :</string>
+    <string name="profile_rb_male_text">Male</string>
+    <string name="profile_rb_female_text">Female</string>
+    <string name="profile_date_of_birth_hint">Date Of Birth</string>
+    <string name="profile_aadhar_number_hint">Aadhar Number</string>
+    <string name="profile_preferred_language_hint">Preferred Language</string>
+    <string name="profile_address_line_1_hint">Address Line 1</string>
+    <string name="profile_address_line_2_hint">Address Line 2</string>
+    <string name="profile_city_hint">City</string>
+    <string name="profile_pincode_hint">Pincode</string>
+    <string name="profile_category_hint">Category</string>
+    <string name="profile_package_hint">Package</string>
+    <string name="profile_save_profile_details_button_text">Save Profile Details</string>
+
+    <string name="profile_no_internet_toast_text">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="profile_address_line_2_validation_error_text">Please provide a address line 2</string>
+    <string name="profile_address_line_1_validation_error_text">Please provide a address line 1</string>
+    <string name="profile_pincode_validation_error_text">Please Select Pincode</string>
+    <string name="profile_city_validation_error_text">Please Select City</string>
+    <string name="profile_preferred_language_validation_error_text">Please Select Preferred Language</string>
+    <string name="profile_email_not_valid_validation_error_text">Please provide a valid email</string>
+    <string name="profile_email_empty_validation_error_text">Please provide an email</string>
+    <string name="profile_first_name_validation_error_text">Please provide a first name</string>
+    <string name="profile_middle_name_validation_error_text">Please provide a middle name</string>
+    <string name="profile_last_name_validation_error_text">Please provide a last name</string>
+    <string name="profile_category_validation_error_text">Please select category!</string>
+    <string name="profile_package_validation_error_text">Please select package!</string>
+    <string name="profile_empty_aadhar_validation_error_text">Please provide aadhar number!</string>
+    <string name="profile_aadhar_validation_error_text">Your aadhar number must be at 12 digits long!</string>
+    <string name="profile_empty_dob_validation_error_text">Please provide date of birth!</string>
+    <string name="profile_dob_validation_error_text">Your age must be above 14 years!</string>
+
+    <string name="profile_picture_option_dialog_toolbar_title_text">Select One Option</string>
+    <string name="profile_picture_option_dialog_gallery_text">Choose Image \nfrom Gallery</string>
+    <string name="profile_picture_option_dialog_camera_text">Open Camera \nand Capture</string>
+    <string name="profile_picture_option_dialog_button_text">Select Option &amp; Proceed</string>
+
+    <string name="profile_something_went_wrong_toast_text">Oops! Something Went Wrong.</string>
+    <string name="profile_please_select_one_option_toast_text">Please Select At Least One Option!</string>
+    <string name="profile_something_went_wrong__try_again_toast_text">Something went wrong please try again later!</string>
+    <string name="profile_capture_uri_not_found_toast_text">Capture image uri not found</string>
+
+    <string name="profile_city_selection_error_toast_text">Oops! Something Went Wrong While Selection of the City!</string>
+    <string name="profile_pincode_selection_error_toast_text">Oops! Something Went Wrong While Selection of the Pincode!</string>
+    <string name="profile_preferred_language_selection_error_toast_text">Oops! Something Went Wrong While Selection of the Preferred Language!</string>
+    <string name="profile_category_selection_error_toast_text">Oops! Something Went Wrong While Selection of the Category!</string>
+    <string name="profile_package_selection_error_toast_text">Oops! Something Went Wrong While Selection of the Package!</string>
+
+    <string name="profile_something_went_wrong_while_saving_profile_changes_toast_text">Something went wrong while saving profile changes! Please Try Again After Some Time</string>
+
+
+    <!-- about text -->
+    <string name="about_no_internet_connection_toast">Please Check Your Internet Connection &amp; Try Again Later!</string>
+    <string name="about_toolbar_title_text">About Sherbimet Worker</string>
+
+    <!-- city text -->
+    <string name="city_toolbar_title_text">Cities</string>
+    <string name="city_search_hint">Search by city name</string>
+    <string name="city_something_went_wrong_message">Something Went Wrong!</string>
+
+
+    <!-- package text -->
+    <string name="package_toolbar_title_text">Packages</string>
+    <string name="package_search_hint">Search by package name</string>
+    <string name="package_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- pincode text -->
+    <string name="pincode_toolbar_title_text">Pincode</string>
+    <string name="pincode_search_hint">Search by pincode</string>
+    <string name="pincode_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- preferred language text -->
+    <string name="preferred_language_toolbar_title_text">Preferred Language</string>
+    <string name="preferred_language_search_hint">Search by preferred language name</string>
+    <string name="preferred_language_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- category text -->
+    <string name="category_toolbar_title_text">Category</string>
+    <string name="category_search_hint">Search by category name</string>
+    <string name="category_something_went_wrong_message">Something Went Wrong!</string>
+
+    <!-- sub category text -->
+    <string name="sub_category_no_internet">Please Check Your Internet Connection &amp; Try Again Later!</string>
+
+
+</resources>

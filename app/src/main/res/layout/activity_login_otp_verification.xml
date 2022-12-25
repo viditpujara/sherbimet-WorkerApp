@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginOtpVerificationActivity"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:id="@+id/llVerifyOTP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="30dp"
+                        android:src="@drawable/ic_otp"
+                        app:tint="@color/colorPrimaryDark"></ImageView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text="@string/login_otp_verification_title"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="24dp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="start"
+                        android:text="@string/login_otp_verification_description"
+                        android:textColor="#333333"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/tvMobileNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@android:color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="25dp"
+                        android:gravity="center">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tie_verify_mobile_number_otp1"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/not_selected_edittext_bg"
+                            android:ems="1"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:imeOptions="actionNext"
+                            android:inputType="number|none"
+                            android:maxLength="1"
+                            android:textColor="#333333"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:theme="@style/TextInputEditText" />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tie_verify_mobile_number_otp2"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/not_selected_edittext_bg"
+                            android:ems="1"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:inputType="number|none"
+                            android:maxLength="1"
+                            android:text=""
+                            android:textColor="#333333"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:theme="@style/TextInputEditText" />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tie_verify_mobile_number_otp3"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/not_selected_edittext_bg"
+                            android:ems="1"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:imeOptions="actionNext"
+                            android:inputType="number|none"
+                            android:maxLength="1"
+                            android:text=""
+                            android:textColor="#333333"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:theme="@style/TextInputEditText" />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tie_verify_mobile_number_otp4"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/not_selected_edittext_bg"
+                            android:ems="1"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:inputType="number|none"
+                            android:maxLength="1"
+                            android:text=""
+                            android:textColor="#333333"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:theme="@style/TextInputEditText" />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tie_verify_mobile_number_otp5"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/not_selected_edittext_bg"
+                            android:ems="1"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:imeOptions="actionNext"
+                            android:inputType="number|none"
+                            android:maxLength="1"
+                            android:text=""
+                            android:textColor="#333333"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:theme="@style/TextInputEditText" />
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/tie_verify_mobile_number_otp6"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_marginStart="16dp"
+                            android:background="@drawable/not_selected_edittext_bg"
+                            android:ems="1"
+                            android:fontFamily="sans-serif-medium"
+                            android:gravity="center"
+                            android:imeOptions="actionDone"
+                            android:inputType="number|none"
+                            android:maxLength="1"
+                            android:text=""
+                            android:textColor="#333333"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:theme="@style/TextInputEditText" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvAllFieldsAreRequired"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="sans-serif"
+                        android:gravity="start"
+                        android:text="@string/login_otp_verification_all_fields_required"
+                        android:textAllCaps="false"
+                        android:textColor="#e53b00"
+                        android:textSize="14sp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/llResendOtpTimer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="38dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvTermsCondition"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="5dp"
+                            android:drawableLeft="@drawable/ic_resend_otp"
+                            android:drawablePadding="8dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:paddingTop="3dp"
+                            android:text="@string/login_otp_verification_resend_otp_in"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="16dp" />
+
+                        <TextView
+                            android:id="@+id/tvTimer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="4dp"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:text=""
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/llResendOtp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="38dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvDidNotReceived"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/login_otp_verification_did_not_received_otp"
+                            android:textColor="#333333"
+                            android:textSize="17sp" />
+
+                        <TextView
+                            android:id="@+id/tvResendOTP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="4dp"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/login_otp_verification_resend_otp"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnVerifyOTP"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_gravity="start|bottom"
+                        android:layout_marginTop="55dp"
+                        android:layout_marginBottom="35dp"
+                        android:background="@drawable/gradient_button_bg"
+                        android:clickable="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="5dp"
+                        android:paddingStart="20dp"
+                        android:paddingEnd="20dp"
+                        android:text="@string/login_otp_verification_button"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/white"
+                        android:textSize="17dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/no_internet_connection_layout"></include>
+</LinearLayout>

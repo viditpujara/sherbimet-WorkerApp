@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0d98ba</color>
+    <color name="colorPrimaryDark">#0d98ba</color>
+    <color name="colorAccent">#0d98ba</color>
+
+    <color name="colorLight">#cfeaf1</color>
+    <color name="colorDark">#0a7a95</color>
+
+
+
+    <color name="gradientStartColor">#3EADCF</color>
+    <color name="gradientEndColor">#0d98ba</color>
+
+    <color name="colorEditTextLayoutColor">#0d98ba</color>
+
+    <color name="colorEditTextLayoutHintColor">#333333</color>
+    <color name="colorEditTextTextColor">#333333</color>
+
+    <color name="PasswordToggleTintColor">#0d98ba</color>
+    <color name="colorBlack">#333333</color>
+
+    <color name="logoutIconColor">#0d98ba</color>
+    <color name="userDisabledIconColor">#FFFFFF</color>
+
+    <color name="LogoColorGrey">#C5C6C6</color>
+    <color name="colorGrey">#666666</color>
+</resources>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bignerdranch.android:simple-item-decoration:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23d3e5d0df407eae1ee4ce29ed98c5f7/jetified-simple-item-decoration-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23d3e5d0df407eae1ee4ce29ed98c5f7/jetified-simple-item-decoration-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/23d3e5d0df407eae1ee4ce29ed98c5f7/jetified-simple-item-decoration-1.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/236e8a276574fb10e802fb75d01ebdc0/jetified-simple-item-decoration-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/236e8a276574fb10e802fb75d01ebdc0/jetified-simple-item-decoration-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/236e8a276574fb10e802fb75d01ebdc0/jetified-simple-item-decoration-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/simple-item-decoration/1.0.0/9ba91e0f6dafec3b1916e8cf435c2432fc407f2e/simple-item-decoration-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bignerdranch.android/simple-item-decoration/1.0.0/d5cfcfe8994c40c8b8c81b3da9462d1f27a21c70/simple-item-decoration-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.bullyboo.animation:text_counter:1.0.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7204787eaa0c0e04a6a4a8b9da8b2cec/jetified-text_counter-1.0.2/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f446f066f724ba0e1684dcbd25ef891a/jetified-text_counter-1.0.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7204787eaa0c0e04a6a4a8b9da8b2cec/jetified-text_counter-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7204787eaa0c0e04a6a4a8b9da8b2cec/jetified-text_counter-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7204787eaa0c0e04a6a4a8b9da8b2cec/jetified-text_counter-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f446f066f724ba0e1684dcbd25ef891a/jetified-text_counter-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f446f066f724ba0e1684dcbd25ef891a/jetified-text_counter-1.0.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f446f066f724ba0e1684dcbd25ef891a/jetified-text_counter-1.0.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.bullyboo.animation/text_counter/1.0.2/abe2fa28e1004f19e50dc603827b0dadaec5b9ff/text_counter-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.bullyboo.animation/text_counter/1.0.2/f7df648b8e127d38eb67a56b09cac3a5ff8b77ec/text_counter-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

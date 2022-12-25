@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">शेरबीमेट वर्कर</string>
+
+    <string name="navigation_drawer_open">नेविगेशन ड्रावर खोलें</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रावर बंद करें</string>
+    <string name="nav_header_title">एंड्राइड स्टूडियो</string>
+    <string name="nav_header_subtitle">एंड्राइड.स्टूडियो@एंड्राइड.कॉम</string>
+    <string name="nav_header_desc">नेविगेशन हैडर</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="title_activity_home">डैशबोर्ड</string>
+
+    <string name="menu_home">होम</string>
+    <string name="menu_gallery">गैलरी</string>
+    <string name="menu_slideshow">स्लाइड शो</string>
+    <string name="menu_tools">उपकरण</string>
+    <string name="menu_share">शेयर</string>
+    <string name="menu_send">सेंड</string>
+
+    <!-- splash text -->
+    <string name="no_internet_connection_splash">इंटरनेट कनेक्शन नहीं मिला!</string>
+    <string name="retry_button_splash">पुन: प्रयास करें</string>
+    <string name="worker_text">वर्कर</string>
+
+    <!-- login text -->
+    <string name="login_title">लॉग इन</string>
+    <string name="login_hello">नमस्ते,</string>
+    <string name="login_description">कृपया नीचे अपना मोबाइल नंबर दर्ज करें जिस पर आपको ओटीपी प्राप्त होगा।</string>
+    <string name="login_country_code_hint">+९१</string>
+    <string name="login_mobile_number_hint">मोबाइल नंबर</string>
+    <string name="login_button_text">ओटीपी के लिए अनुरोध करें</string>
+    <string name="login_mobile_empty_validation_error">कृपया मोबाइल नंबर प्रदान करें</string>
+    <string name="login_mobile_invalid_validation_error">आपका मोबाइल नंबर १० अंकों का होना चाहिए</string>
+    <string name="login_something_went_wrong_toast">कुछ गलत हो गया है कृपया बाद में पुनः प्रयास करें!</string>
+
+    <!-- login verification text -->
+    <string name="login_otp_verification_title">ओटीपी सत्यापन</string>
+    <string name="login_otp_verification_description">कृपया जारी रखने के लिए ६ अंकों का कोड दर्ज करें जिसे हमने एसएमएस के माध्यम से मोबाइल नंबर पर भेजा है।</string>
+    <string name="login_otp_verification_all_fields_required">ओटीपी के सभी क्षेत्रों को सत्यापित करने की आवश्यकता है। कृपया सभी फ़ील्ड दर्ज करें और पुनः प्रयास करें!</string>
+    <string name="login_otp_verification_no_intnernet_toast">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="login_otp_verification_resend_otp_in">ओटीपी को पुनः प्राप्त करे</string>
+    <string name="login_otp_verification_did_not_received_otp">क्या ओटीपी प्राप्त नहीं हुआ? </string>
+    <string name="login_otp_verification_resend_otp">ओटीपी प्राप्त करे</string>
+    <string name="login_otp_verification_button">ओटीपी और लॉगिन सत्यापित करें</string>
+
+    <!-- success message text -->
+    <string name="success_title">सफलता !</string>
+
+
+    <!-- no internet text -->
+    <string name="no_internet_title">ओह...!!</string>
+    <string name="no_internet_message">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="no_internet_retry_button">पुन: प्रयास करें</string>
+
+    <!-- error text -->
+    <string name="error_title">ओह...!!</string>
+
+
+    <!-- no search result text -->
+    <string name="no_search_result_title">उफ़</string>
+
+    <!-- home text -->
+    <string name="home_service_bookings_text">बुकिंग सेवा</string>
+    <string name="home_service_requests_text">अनुरोध सेवा</string>
+    <string name="home_my_profile_text">मेरी प्रोफाइल</string>
+    <string name="home_no_internet_connection_toast">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="home_logout_title">कृपया पुष्टि करें</string>
+    <string name="home_logout_description">क्या आप वाकई शेरबीमेट वर्कर से लॉगआउट करना चाहते हैं?</string>
+    <string name="home_logout_yes_button">हाँ</string>
+    <string name="home_logout_no_button">नहीं</string>
+    <string name="home_something_went_wrong_toast">कुछ गलत हो गया है!</string>
+
+    <!-- navigation text -->
+    <string name="nav_service_bookings">बुकिंग सेवाएं</string>
+    <string name="nav_service_requests">अनुरोध सेवाएं</string>
+    <string name="nav_chat">हम से बात करे</string>
+    <string name="nav_profile">प्रोफ़ाइल</string>
+    <string name="nav_about">शेरबीमेट वर्कर के बारे में</string>
+    <string name="nav_logout">लॉग आउट</string>
+
+    <!-- worker booking status text -->
+    <string name="worker_booking_status_toolbar_title_text">बुकिंग की स्थितियां</string>
+    <string name="worker_booking_status_description_text">कृपया बुकिंग इतिहास देखने के लिए कम से कम एक विकल्प चुनें।</string>
+    <string name="worker_booking_status_pending_booking_text">लंबित बुकिंग</string>
+    <string name="worker_booking_status_ongoing_booking_text">जारी बुकिंग</string>
+    <string name="worker_booking_status_completed_booking_text">पूर्ण बुकिंग</string>
+    <string name="worker_booking_status_no_internet_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+
+    <!-- worker bookings text -->
+    <string name="worker_booking_pending_toolbar_title_text">लंबित बुकिंग सेवा</string>
+    <string name="worker_booking_ongoing_toolbar_title_text">जारी बुकिंग सेवा</string>
+    <string name="worker_booking_completed_toolbar_title_text">पूर्ण बुकिंग सेवा</string>
+    <string name="worker_booking_general_toolbar_title_text">बुकिंग सेवा</string>
+    <string name="worker_booking_no_internet_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+
+    <!-- worker bookings list row text -->
+    <string name="worker_booking_list_row_service_details_text">सेवा का विवरण</string>
+    <string name="worker_booking_list_row_service_id_text">सेवा आईडी</string>
+    <string name="worker_booking_list_row_service_scheduled_on_text">सेवा अनुसूचि</string>
+    <string name="worker_booking_list_row_service_of_text">सेवा</string>
+    <string name="worker_booking_list_row_service_address">सेवा का पता</string>
+    <string name="worker_booking_list_row_service_message">सेवा संदेश</string>
+    <string name="worker_booking_list_row_payable_service_amount">सेवा में मिलने लायक राशि</string>
+    <string name="worker_booking_list_row_user_service_details">सेवा के लिए उपयोगकर्ता विवरण</string>
+    <string name="worker_booking_list_row_user_name">नाम</string>
+    <string name="worker_booking_list_row_user_gender">लिंग</string>
+    <string name="worker_booking_list_row_user_mobile">Mobile</string>
+    <string name="worker_booking_list_row_user_email">Email</string>
+    <string name="worker_booking_list_row_review_details">समीक्षा विवरण</string>
+    <string name="worker_booking_list_row_rated">रेटेड</string>
+    <string name="worker_booking_list_row_review_message">संदेश</string>
+    <string name="worker_booking_list_row_start_service_booking_button_text">सेवा शुरू करें</string>
+    <string name="worker_booking_list_row_end_service_booking_button_text">सेवा अंत करें</string>
+    <string name="worker_booking_list_row_no_internet_connection_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="start_end_service_network_error_text">नेटवर्क त्रुटि!</string>
+    <string name="start_end_service_no_connection_error_text">सर्वर के साथ कोई इंटरनेट कनेक्शन नहीं!</string>
+    <string name="start_end_service_server_error_text">सर्वर त्रुटि!</string>
+    <string name="start_end_service_connection_timeout_error_text">कनेक्शन टाइमआउट त्रुटि!</string>
+    <string name="start_end_service_error_text">त्रुटि!</string>
+
+    <!-- worker request status text -->
+    <string name="worker_request_status_toolbar_title_text">अनुरोध की स्थितियां</string>
+    <string name="worker_request_status_description_text">कृपया अनुरोध इतिहास देखने के लिए कम से कम एक विकल्प चुनें।</string>
+    <string name="worker_request_status_pending_requests_text">लंबित अनुरोध</string>
+    <string name="worker_request_status_accepted_requests_text">स्वीकृत अनुरोध</string>
+    <string name="worker_request_status_ongoing_requests_text">जारी अनुरोध</string>
+    <string name="worker_request_status_completed_requests_text">पूर्ण अनुरोध</string>
+    <string name="worker_request_status_no_internet_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+
+
+    <!-- worker requests text -->
+    <string name="worker_request_pending_toolbar_title_text">लंबित सेवा अनुरोध</string>
+    <string name="worker_request_accepted_toolbar_title_text">स्वीकृत सेवा अनुरोध</string>
+    <string name="worker_request_ongoing_toolbar_title_text">जारी सेवा अनुरोध</string>
+    <string name="worker_request_completed_toolbar_title_text">पूर्ण सेवा अनुरोध</string>
+    <string name="worker_request_general_toolbar_title_text">सेवा अनुरोध</string>
+    <string name="worker_request_no_internet_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+
+    <!-- worker requests list row text -->
+    <string name="worker_request_list_row_service_details_text">सेवा का विवरण</string>
+    <string name="worker_request_list_row_service_id_text">सेवा आईडी</string>
+    <string name="worker_request_list_row_service_scheduled_on_text">सेवा अनुसूचि</string>
+    <string name="worker_request_list_row_service_of_text">सेवा</string>
+    <string name="worker_request_list_row_payment_method">भुगतान का तरीका</string>
+    <string name="worker_request_list_row_service_address">सेवा का पता</string>
+    <string name="worker_request_list_row_service_message">सेवा संदेश</string>
+    <string name="worker_request_list_row_payable_service_amount">सेवा में मिलने लायक राशि</string>
+    <string name="worker_request_list_row_user_service_details">सेवा के लिए उपयोगकर्ता विवरण</string>
+    <string name="worker_request_list_row_user_name">नाम</string>
+    <string name="worker_request_list_row_user_gender">लिंग</string>
+    <string name="worker_request_list_row_user_mobile">Mobile</string>
+    <string name="worker_request_list_row_user_email">Email</string>
+    <string name="worker_request_list_row_review_details">समीक्षा विवरण</string>
+    <string name="worker_request_list_row_rated">रेटेड</string>
+    <string name="worker_request_list_row_review_message">संदेश</string>
+    <string name="worker_request_list_row_accept_service_booking_button_text">सेवा स्वीकृत करें</string>
+    <string name="worker_request_list_row_start_service_booking_button_text">सेवा शुरू करें</string>
+    <string name="worker_request_list_row_end_service_booking_button_text">सेवा अंत करें</string>
+    <string name="worker_request_list_row_no_internet_connection_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="accept_start_end_service_network_error_text">नेटवर्क त्रुटि!</string>
+    <string name="accept_start_end_service_no_connection_error_text">सर्वर के साथ कोई इंटरनेट कनेक्शन नहीं!</string>
+    <string name="accept_start_end_service_server_error_text">सर्वर त्रुटि!</string>
+    <string name="accept_start_end_service_connection_timeout_error_text">कनेक्शन टाइमआउट त्रुटि!</string>
+    <string name="accept_start_end_service_error_text">त्रुटि!</string>
+
+
+    <!-- profile text -->
+    <string name="profile_toolbar_title_text">मेरी प्रोफाइल</string>
+    <string name="profile_first_name_hint">पहला नाम</string>
+    <string name="profile_middle_name_hint">मध्य नाम</string>
+    <string name="profile_last_name_hint">अंतिम नाम</string>
+    <string name="profile_email_hint">ईमेल</string>
+    <string name="profile_country_code_text">+९१</string>
+    <string name="profile_mobile_number_hint">मोबाइल नंबर</string>
+    <string name="profile_gender_text">लिंग :</string>
+    <string name="profile_rb_male_text">पुरुष</string>
+    <string name="profile_rb_female_text">महिला</string>
+    <string name="profile_date_of_birth_hint">जन्म की तारीख</string>
+    <string name="profile_aadhar_number_hint">आधार नंबर</string>
+    <string name="profile_preferred_language_hint">पसंदीदा भाषा</string>
+    <string name="profile_address_line_1_hint">पता पंक्ति १</string>
+    <string name="profile_address_line_2_hint">पता पंक्ति २</string>
+    <string name="profile_city_hint">शहर</string>
+    <string name="profile_pincode_hint">पिन कोड</string>
+    <string name="profile_category_hint">केटेगरी</string>
+    <string name="profile_package_hint">पेकेज</string>
+    <string name="profile_save_profile_details_button_text">प्रोफ़ाइल विवरण सहेजें</string>
+    <string name="profile_no_internet_toast_text">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="profile_address_line_2_validation_error_text">कृपया एक पता पंक्ति २ प्रदान करें</string>
+    <string name="profile_address_line_1_validation_error_text">कृपया एक पता पंक्ति १ प्रदान करें</string>
+    <string name="profile_pincode_validation_error_text">कृपया पिनकोड का चयन करें</string>
+    <string name="profile_city_validation_error_text">कृपया शहर चुनें</string>
+    <string name="profile_preferred_language_validation_error_text">कृपया पसंदीदा भाषा चुनें</string>
+    <string name="profile_email_not_valid_validation_error_text">कृपया सही ईमेल पता बताएं</string>
+    <string name="profile_email_empty_validation_error_text">कृपया एक ईमेल प्रदान करें</string>
+    <string name="profile_first_name_validation_error_text">कृपया एक पहला नाम प्रदान करें</string>
+    <string name="profile_middle_name_validation_error_text">कृपया एक मध्य नाम प्रदान करें</string>
+    <string name="profile_last_name_validation_error_text">कृपया एक अंतिम नाम दें</string>
+    <string name="profile_category_validation_error_text">कृपया श्रेणी का चयन करें!</string>
+    <string name="profile_package_validation_error_text">कृपया पेकेज का चयन करें!</string>
+    <string name="profile_empty_aadhar_validation_error_text">कृपया आधार नंबर प्रदान करें!</string>
+    <string name="profile_aadhar_validation_error_text">आपका आधार नंबर १२ अंकों का होना चाहिए!</string>
+    <string name="profile_empty_dob_validation_error_text">कृपया जन्म की तारीख प्रदान करें!</string>
+    <string name="profile_dob_validation_error_text">आपकी आयु १४ वर्ष से अधिक होनी चाहिए!</string>
+
+    <string name="profile_picture_option_dialog_toolbar_title_text">एक विकल्प चुनें</string>
+    <string name="profile_picture_option_dialog_gallery_text">गैलरी से \nछवि चुनें</string>
+    <string name="profile_picture_option_dialog_camera_text">कैमरा खोलें \ nकैप्चर करे</string>
+    <string name="profile_picture_option_dialog_button_text">विकल्प और आगे बढ़ें चुनें</string>
+
+    <string name="profile_something_went_wrong_toast_text">उफ़! कुछ गलत हो गया।</string>
+    <string name="profile_please_select_one_option_toast_text">कृपया कम से कम एक विकल्प चुनें!</string>
+    <string name="profile_something_went_wrong__try_again_toast_text">कुछ गलत हो गया है। कृपया बाद में दोबारा प्रयास करें!</string>
+    <string name="profile_capture_uri_not_found_toast_text">कैप्चर छवि की यूआरआई नहीं मिली</string>
+
+    <string name="profile_city_selection_error_toast_text">उफ़! कुछ गलत हो गया जबकि शहर का चयन!</string>
+    <string name="profile_pincode_selection_error_toast_text">उफ़! पिनकोड का चयन करते समय कुछ गलत हो गया!</string>
+    <string name="profile_preferred_language_selection_error_toast_text">उफ़! कुछ गलत हो गया जबकि पसंदीदा भाषा का चयन!</string>
+    <string name="profile_category_selection_error_toast_text">उफ़! श्रेणी का चयन करते समय कुछ गलत हो गया!</string>
+    <string name="profile_package_selection_error_toast_text">उफ़! पेकेज का चयन करते समय कुछ गलत हो गया!</string>
+
+    <string name="profile_something_went_wrong_while_saving_profile_changes_toast_text">प्रोफ़ाइल परिवर्तन सहेजते समय कुछ गलत हो गया! कृपया कुछ समय बाद फिर से प्रयास करें</string>
+
+    <!-- about text -->
+    <string name="about_no_internet_connection_toast">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+    <string name="about_toolbar_title_text">शेरबीमेट वर्कर के बारे में</string>
+
+    <!-- package text -->
+    <string name="package_toolbar_title_text">पेकेज</string>
+    <string name="package_search_hint">पेकेज के नाम से खोजें</string>
+    <string name="package_something_went_wrong_message">कुछ गलत हो गया!</string>
+
+    <!-- city text -->
+    <string name="city_toolbar_title_text">शहर</string>
+    <string name="city_search_hint">शहर के नाम से खोजें</string>
+    <string name="city_something_went_wrong_message">कुछ गलत हो गया!</string>
+
+    <!-- pincode text -->
+    <string name="pincode_toolbar_title_text">पिनकोड</string>
+    <string name="pincode_search_hint">पिनकोड द्वारा खोजें</string>
+    <string name="pincode_something_went_wrong_message">कुछ गलत हो गया!</string>
+
+    <!-- preferred language text -->
+    <string name="preferred_language_toolbar_title_text">पसंदीदा भाषा</string>
+    <string name="preferred_language_search_hint">पसंदीदा भाषा नाम से खोजें</string>
+    <string name="preferred_language_something_went_wrong_message">कुछ गलत हो गया!</string>
+
+    <!-- category text -->
+    <string name="category_toolbar_title_text">केटेगरी</string>
+    <string name="category_search_hint">केटेगरी के नाम से खोजें</string>
+    <string name="category_something_went_wrong_message">कुछ गलत हो गया!</string>
+
+    <!-- sub category text -->
+    <string name="sub_category_no_internet">कृपया अपने इंटरनेट कनेक्शन की जाँच करें और बाद में पुनः प्रयास करें!</string>
+
+</resources>

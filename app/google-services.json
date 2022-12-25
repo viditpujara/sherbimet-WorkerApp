@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "194112457346",
+    "project_id": "sherbimet-worker",
+    "storage_bucket": "sherbimet-worker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194112457346:android:3ed5241d75f2345052429b",
+        "android_client_info": {
+          "package_name": "com.sherbimet.worker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194112457346-p057ai0asvfl4pkm06rac4q2arc406ok.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sherbimet.worker",
+            "certificate_hash": "8841c555f8f0eff6b2ad034e9e0b125326680b3a"
+          }
+        },
+        {
+          "client_id": "194112457346-ahr9qk2ttadh077vhec8qanq9tclofu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4ckGxdfhBlPq9guk9ykkF_sEj1s-Afuw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194112457346-ahr9qk2ttadh077vhec8qanq9tclofu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
